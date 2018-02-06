@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+#display{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    left:0;
+    top:0;
+}
+
+.control{
+    width:15vw;
+    height:15vh;
+    position: fixed;
+    bottom: 0;
+    right:0;
+    background-color: #ffa9a9;
+}
+
+#myImg {
+    position: absolute;
+}
+
+.allImgs{
+    position: absolute;
+}

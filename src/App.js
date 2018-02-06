@@ -20,7 +20,7 @@ class App extends Component {
     
     
     componentDidMount(){
-        this.socket = mySocket("http://localhost:10000");
+        this.socket = mySocket("https://lab5-advbcit.herokuapp.com/");
         this.socket.on("createimage", (data)=>{
             this.setState({
                 allusers:data
